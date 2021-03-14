@@ -1,0 +1,37 @@
+textarea{
+  position: relative;
+  margin-top: 30rpx;
+  border: 1px solid #0193E6;
+  padding: 15rpx;
+  width: 80%;
+  min-height: 200rpx;
+  max-height: 400rpx;
+  margin-left: 8%;
+  border-radius: 15rpx;
+}
+button{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 80rpx;
+  color: white;
+  background: #0193E6;
+}
+.list{
+  position: relative;
+  top: 100rpx;
+  border-top: 1px solid #0193E6;
+  border-bottom: 1px solid #0193E6;
+  width: 100%;
+}
+.my_title{
+  margin: 20rpx;
+}
+image{
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 50%;
+}
+.txt{
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+}

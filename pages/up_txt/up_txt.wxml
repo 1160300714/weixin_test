@@ -1,0 +1,10 @@
+<view>
+  <textarea placeholder='编辑我的小目标' bindinput='bindinput' auto-height></textarea>
+  <button bindtap='uptxt'>提交</button>
+</view>
+<view class='list'>
+  <view class='my_title'>我的发布</view>
+  <block wx:for='{{list}}' wx:key=''>
+    <view class='txt'>{{index}} ) . {{item}}</view>
+  </block>
+</view>

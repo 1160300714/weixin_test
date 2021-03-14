@@ -1,0 +1,26 @@
+.centent{
+  margin: 30rpx;
+  background: #F6F8F8;
+  border-radius: 15rpx;
+}
+.item{
+  padding-top: 20rpx;
+  margin: 20rpx 20rpx 20rpx 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.item image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+
+}
+.item .time{
+  color: #d0d0d0;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.txt{
+  margin-left: 30rpx;
+  padding-bottom: 30rpx;
+}

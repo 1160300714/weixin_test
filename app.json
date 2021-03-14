@@ -1,6 +1,8 @@
 {
   "pages":[
+    "pages/home/home",
     "pages/index/index",
+    "pages/up_txt/up_txt",
     "pages/logs/logs"
   ],
   "window":{
@@ -10,5 +12,17 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/up_txt/up_txt",
+        "text": "发布"
+      }
+    ]
+  }
 }

@@ -1,0 +1,12 @@
+<block wx:for='{{list}}' wx:key=''>
+  <view class='centent'>
+    <view class='item'>
+      <image src='{{item.head}}'></image>
+      <view style='margin-left:30rpx;'>
+        <view class='name'>{{item.name}}</view>
+        <view class='time'>{{item.time}}</view>
+      </view>
+    </view>
+    <view class='txt'>{{item.txt}}</view>
+  </view>
+</block>
